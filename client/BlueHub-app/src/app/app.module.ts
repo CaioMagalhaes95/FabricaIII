@@ -1,6 +1,7 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-
+import {MatIconModule} from '@angular/material/icon';
+import {MatSnackBar, MatSnackBarRef} from '@angular/material/snack-bar';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 
@@ -10,7 +11,10 @@ import { AppComponent } from './app.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    MatIconModule,
+    MatSnackBar,
+    MatSnackBarRef,
   ],
   providers: [],
   bootstrap: [AppComponent]
