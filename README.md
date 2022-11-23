@@ -21,4 +21,10 @@
     (☞ﾟヮﾟ)☞☜(ﾟヮﾟ☜)
 ### Onde?
   - O projeto será desenvolvido como projeto de 3º semestre do curso de Analise e desenvolvimento da Facens, para aumentar a experiencia dos integrantes em algumas tecnologias (Node.js) e utilizar as tecnologias ja conhecidas por parte da equipe (Angular) ⚡⚡⚡⚡
+### Diagramas:
 
+![image](https://user-images.githubusercontent.com/89360553/203662365-e73d18c1-b1e2-404d-8ce2-61b7cd2587b6.png)
+![image](https://user-images.githubusercontent.com/89360553/203662371-277b5118-292a-4e2d-be51-421c94249f01.png)
+![image](https://user-images.githubusercontent.com/89360553/203662466-eefba308-b028-4825-87e0-37c3b69d136d.png)
+
+![image](https://user-images.githubusercontent.com/89360553/203662405-1e7a7b40-6a44-4fb0-b9c0-be9e7487a120.png)
