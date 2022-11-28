@@ -16,7 +16,7 @@
 	<meta property="og:image" content="" /> <!-- image link, make sure it's jpg -->
 	<meta property="og:url" content="" /> <!-- where do you want your post to link to -->
 	<meta name="twitter:card" content="summary_large_image"> <!-- to have large image post format in Twitter -->
-
+    
     <!-- Webpage Title -->
     <title>B´Energy</title>
     
@@ -28,6 +28,7 @@
     <link href="css/swiper.css" rel="stylesheet">
 	<link href="css/magnific-popup.css" rel="stylesheet">
 	<link href="css/styles.css" rel="stylesheet">
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
 	
 	<!-- Favicon  -->
     <!-- <link rel="icon" href="images/cats.jpg"> -->
@@ -56,26 +57,27 @@
                         <div class="row">
                             <div class="col-xl-6 offset-xl-3">
                                 <div class="text-box mt-5 mb-5" style="width: 700px;" >
-                                    <p class="mb-4">Aluno, preencha esse formulario para se inscrever na B´Energy. Assim que possível um membro entrará em contato</p>
+                                    <p class="mb-4">Caro Parceiro, preencha esse formulario para se tornar um patrocinador da B´Energy. Assim que possível um membro entrará em contato</p>
             
                                     <!-- Sign Up Form -->
-                                    <form id="signUpForm">
+                                    <form id="SponsorForm">
+                                        <div class="form-group">
+                                            <input type="text" class="form-control-input" id="rs" required>
+                                            <label class="label-control" for="rs">Razão Social</label>
+                                        </div>
+                                        <div class="form-group">
+                                            <input type="number" class="form-control-input" id="cnpj" required>
+                                            <label class="label-control" for="cnpj">CNPJ</label>
+                                        </div>
                                         <div class="form-group">
                                             <input type="email" class="form-control-input" id="email" required>
                                             <label class="label-control" for="email">Email</label>
                                         </div>
                                         <div class="form-group">
-                                            <input type="text" class="form-control-input" id="name" required>
-                                            <label class="label-control" for="name">Name</label>
+                                            <input type="number" class="form-control-input" id="tel" required>
+                                            <label class="label-control" for="tel">Telefone</label>
                                         </div>
-                                        <div class="form-group">
-                                            <input type="number" class="form-control-input" id="name" required>
-                                            <label class="label-control" for="name">CNPJ</label>
-                                        </div>
-                                        <div class="form-group">
-                                            <input type="text" class="form-control-input" id="password" required>
-                                            <label class="label-control" for="password">Password</label>
-                                        </div>
+                                        
                                        
                                         <div class="form-group checkbox">
                                             <input type="checkbox" id="terms" value="Agreed-to-Terms" required>I agree with the site's stated <a href="privacy.html">Privacy Policy</a> and <a href="terms.html">Terms & Conditions</a>
@@ -83,7 +85,7 @@
             
                                        
                                         <div class="form-group">
-                                            <button type="submit" class="form-control-submit-button" (click)="openSnackBar()">Sign Up</button>
+                                            <button type="submit" class="form-control-submit-button" onclick="onHandleClickS(event)">Sign Up</button>
                                         </div>
                                     </form>
                                     <!-- end of sign up form -->
@@ -106,6 +108,8 @@
     <script src="js/jquery.easing.min.js"></script> <!-- jQuery Easing for smooth scrolling between anchors -->
     <script src="js/jquery.magnific-popup.js"></script> <!-- Magnific Popup for lightboxes -->
     <script src="js/swiper.min.js"></script> <!-- Swiper for image and text sliders -->
+    <script src="js/axios.min.js"></script>
     <script src="js/scripts.js"></script> <!-- Custom scripts -->
+    <script src="js/funcoes.js" defer></script>
 </body>
 </html>
